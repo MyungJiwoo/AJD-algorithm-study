@@ -5,7 +5,6 @@ function solution(arr, divisor) {
       answer.push(i);
     }
   }
-
   if (answer.length === 0) {
     answer.push(-1);
   }
