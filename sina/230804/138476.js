@@ -17,6 +17,7 @@ function solution(k, tangerine) {
   for (let i = 0; i < valueArray.length; i++) {
     ++answer;
     if (sum + valueArray[i] >= k) {
+      z;
       break;
     }
     sum += valueArray[i];
