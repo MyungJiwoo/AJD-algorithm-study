@@ -10,7 +10,7 @@ import java.util.Stack;
 public class P42586 {
     public static void main(String[] args) {
         int[] progresses = {93, 30, 55};
-        int[] speeds = {1,30,5};
+        int[] speeds = {1, 30, 5};
         System.out.println(Arrays.toString(solution(progresses, speeds)));
 
     }
@@ -21,7 +21,7 @@ public class P42586 {
         for (int i = 0; i < progresses.length; i++) { //stack에 며칠 걸리는지 넣기
             int count = 0;
 
-            for (int j = progresses[progresses.length-1-i]; j < 100; j += speeds[speeds.length-1-i]) count++;
+            for (int j = progresses[progresses.length - 1 - i]; j < 100; j += speeds[speeds.length - 1 - i]) count++;
             stack.push(count);
         }
 
