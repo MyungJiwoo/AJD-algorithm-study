@@ -1,5 +1,4 @@
 package programmers.stack_queue.level2;
-
 //s	answer
 //"()()"	true
 //"(())()"	true
