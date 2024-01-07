@@ -13,7 +13,7 @@ import java.util.LinkedList;
 // 처음에는 큐에다가 배열을 저장하지 않고 별 지랄을 떨었다가 실패. 우선순위 큐는 앞으로 배열 사용할 것.
 public class P42587 {
     public static void main(String[] args) {
-        int[] priorities = {1,1,9,1,1,1};
+        int[] priorities = {1, 1, 9, 1, 1, 1};
         int location = 0;
 
         System.out.println(solution(priorities, location));
@@ -31,8 +31,8 @@ public class P42587 {
             boolean maxPriority = true;
 
             //큐에 있는 다른 요소들과 우선순위 비교
-            for(int[] pair : queue) {
-                if(current[0] < pair[0]) {
+            for (int[] pair : queue) {
+                if (current[0] < pair[0]) {
                     queue.offer(current);
                     maxPriority = false;
                     break;
@@ -40,9 +40,9 @@ public class P42587 {
             }
 
             //현재 요소가 가장 높은 우선순위를 가지면
-            if(maxPriority) {
+            if (maxPriority) {
                 answer++;
-                if(current[1] == location) {
+                if (current[1] == location) {
                     break;
                 }
             }
