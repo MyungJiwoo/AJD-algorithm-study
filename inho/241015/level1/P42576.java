@@ -3,7 +3,6 @@ package programmers.hash.level1;
 import java.util.HashMap;
 
 // 완주하지 못한 선수
-
 // participant	completion	return
 //["leo", "kiki", "eden"]	["eden", "kiki"]	"leo"
 //["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko"
