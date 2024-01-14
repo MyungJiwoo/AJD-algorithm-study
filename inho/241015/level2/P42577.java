@@ -10,6 +10,7 @@ import java.util.HashSet;
 //["123","456","789"]	true
 //["12","123","1235","567","88"]	false
 // 시작 값으로 비교.
+
 public class P42577 {
     public static void main(String[] args) {
         String[] arr = {"119", "97674223", "1195524421"};
