@@ -7,6 +7,7 @@ import java.util.HashMap;
 //[["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]	5
 //[["crow_mask", "face"], ["blue_sunglasses", "face"], ["smoky_makeup", "face"]]	3
 // 계산을 해보니 옷의 종류들의 갯수를 곱하고 -1을 하면 답임.
+
 public class P42578 {
     public static void main(String[] args) {
 
