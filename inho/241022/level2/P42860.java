@@ -1,5 +1,5 @@
 package programmers.greedy.level2;
-// 조이스틱
+// 조이스틱  
 // name	return
 //"JEROEN"	56
 //"JAN"	23
