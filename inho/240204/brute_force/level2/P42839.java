@@ -1,4 +1,5 @@
 package programmers.brute_force.level2;
+
 // 피로도
 //k	dungeons	result
 //80	[[80,20],[50,40],[30,10]]	3
