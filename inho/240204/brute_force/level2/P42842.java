@@ -1,5 +1,4 @@
 package programmers.brute_force.level2;
-
 // 카펫
 // brown	yellow	return
 //10	2	[4, 3]
